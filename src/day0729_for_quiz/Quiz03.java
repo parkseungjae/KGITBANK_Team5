@@ -1,4 +1,4 @@
-package for_quiz_0729;
+package day0729_for_quiz;
 
 public class Quiz03 {
 
