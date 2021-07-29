@@ -1,4 +1,4 @@
-package for_Quiz_0729;
+package for_quiz_0729;
 
 public class Quiz04 {
 

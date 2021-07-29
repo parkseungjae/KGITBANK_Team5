@@ -1,4 +1,4 @@
-package if_Quiz_0728;
+package if_quiz_0728;
 
 import java.util.Scanner;
 
