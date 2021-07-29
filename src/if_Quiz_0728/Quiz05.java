@@ -1,11 +1,13 @@
-package day04_if;
+package if_Quiz_0728;
 
 import java.util.Scanner;
 
-public class Test5 {
+public class Quiz05 {
 	public static void main(String[] args) {
-		
-		// 오성택 문제풀이
+		/*
+		# 5번. 오성택 문제
+		3개의 정수를 입력받아 최대,최소 값을 출력하고 그 수가 3의 배수인지 확인하라
+		*/
 		Scanner sc = new Scanner(System.in);
 		int num1, num2, num3, max, min;
 		System.out.print("세 수 입력 : ");

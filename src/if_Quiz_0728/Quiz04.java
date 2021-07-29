@@ -1,11 +1,15 @@
-package day04_if;
+package if_Quiz_0728;
 
 import java.util.Scanner;
 
-public class Test4 {
+public class Quiz04 {
 	public static void main(String[] args) {
-		
-		// 김원준 문제풀이
+		/*
+		# 4번. 김원준 문제
+		10살 이상 20살 미만이면 10대 이상입니다.를 출력하고,
+		20살 이상 30살 미만이면 20대입니다.
+		30살 이상이면 30대 이상입니다.를 출력해주세요.
+		*/
 		Scanner sc = new Scanner(System.in);
 		int age;
 		System.out.print("나이 입력 : ");

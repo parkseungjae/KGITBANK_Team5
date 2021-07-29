@@ -1,11 +1,19 @@
-package day04_if;
+package if_Quiz_0728;
 
 import java.util.Scanner;
 
-public class Test1 {
+public class Quiz01 {
 	public static void main(String[] args) {
-		
-		// 박승재 문제풀이
+		/*
+		# 1번. 박승재 문제
+		A라는 학생이 있습니다.
+		A의 성적을 입력받게하고
+		성적이 100이하 80이상이면 A
+		80미만 60이상이면 B
+		60미만 40이상이면 C
+		40미만 20이상이면 D
+		20미만이면 F로 부여하게 만들어주세요!
+		*/
 		Scanner sc = new Scanner(System.in);
 		int score;
 		System.out.print("A학생의 성적 입력(0~100) : ");
