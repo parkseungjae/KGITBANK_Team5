@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Quiz05 {
 	public static void main(String[] args) {
+		/*
+		# 5번. 오성택 문제
+		3개의 정수를 입력받아 최대,최소 값을 출력하고 그 수가 3의 배수인지 확인하라
+		*/
 		Scanner input = new Scanner(System.in);
 
 		int num1;
