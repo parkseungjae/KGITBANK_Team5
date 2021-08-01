@@ -9,6 +9,12 @@ public class Quiz02 {
 		ex) 첫날 10, 둘째날 20(총 금액 30), 셋째날 30(총 금액 60) ...
 		30일에 저금하는 건 얼마이며 그동안 저금한 총 금액은?
 		*/
-		
+		int money = 10, sum = 0;
+		for(int day = 1; day <= 30; day++, money+=10) {
+			sum += money;
+			System.out.println(day + "일 저금 금액 : " + money);
+			System.out.println(day + "일 까지의 총 저금 금액 : " + sum);
+			System.out.println();
+		}
 	}
 }
