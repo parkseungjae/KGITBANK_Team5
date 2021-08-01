@@ -1,4 +1,4 @@
-package test;
+package Juhee0728;
 
 import java.util.Scanner;
 
