@@ -20,8 +20,12 @@ class Bath{
 	}
 
 	public void fillWater(int sec) {
-		for(int i = 0; i <sec; i++) {
+		for(int i = 1; i <=sec; i++) {
+			System.out.println(i+"초");
 			this.water += 2;
+			try {
+                Thread.sleep(1000);
+             }catch(InterruptedException e) {}
 				if(this.water >= 100) {
 					setWater(100);
 					System.out.println("욕조가 가득찼습니다.");
@@ -33,8 +37,13 @@ class Bath{
 	}
 	
 	public void outWater(int sec) {
-		for(int i = 0; i<sec; i++) {
+		for(int i = 1; i<=sec; i++) {
+			try {
+                Thread.sleep(1000);
+             }catch(InterruptedException e) {}
+			System.out.println(i+"초");
 			this.water -=2;
+			
 			if(this.water <= 0) {
 				setWater(0);
 				System.out.println("욕조가 비었습니다.");
@@ -47,7 +56,7 @@ class Bath{
 	
 	public void upTemp() {
 		this.temp +=1;
-		if(getTemp() >= 70) {
+			if(getTemp() >= 70) {
 			this.temp = 70;
 			System.out.println("너무 뜨겁습니다 온도를 내려주세요.");
 		}
@@ -104,7 +113,7 @@ public class Myquiz01 {
 					break;
 				case 6:
 					System.out.println("화장실 밖으로 나갑니다.");
-			
+					System.exit(1);
 			}
 		}
 	}
